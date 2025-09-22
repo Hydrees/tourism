@@ -3,13 +3,14 @@ import Douglas from "./assets/Pictures/douglas.png"
 import Mark from "./assets/Pictures/mark.png"
 import Victor from "./assets/Pictures/victor.png"
 import Ansari from "./assets/Pictures/ansari.png"
+import Crewbg from "./assets/Pictures/crew.jpg"
 
 export default function Crew() {
     const [activeDot, setIsActiveDot] = useState("a")
 
     return (
-        <main className="space-y-10 md:space-y-2  p-10 text-white  bg-[#0B0D17] min-h-screen">
-            <div className=" text-center md:text-left md:pl-15">
+        <main className=" flex flex-col justify-center md:items-start space-y-10 -mt-25 px-10 text-white  h-screen" style={{ backgroundImage: `url(${Crewbg})` }}>
+            <div className=" text-center md:text-left md:pl-15 pt-15">
                 <p className="text-xl"> MEET YOUR CREW</p>
             </div>
 

@@ -2,13 +2,14 @@ import { useState } from "react"
 import Vehicle from "./assets/Pictures/vehicle.jpg"
 import Port from "./assets/Pictures/port.jpg"
 import Capsule from "./assets/Pictures/capsule.jpg"
+import Techbg from "./assets/Pictures/tech.jpg"
 
 export default function Technology() {
     const [activeNumber, setIsActiveNumber] = useState("1")
 
 
     return (
-        <main className="space-y-10  p-5 md:pl-1 text-white  bg-[#0B0D17] min-h-screen">
+        <main className="space-y-10  p-5 md:pl-1 text-white h-screen" style={{ backgroundImage: `url(${Techbg})` }}>
             <div className=" text-center md:text-left md:pl-20">
                 <p className="text-xl"> SPACE LAUNCH 101</p>
             </div>

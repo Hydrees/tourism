@@ -9,7 +9,7 @@ export default function NavBar() {
     }
 
     return (
-        <nav className="flex sticky w-full top-0 z-50 items-center justify-between bg-transparent text-white shadow-sm px-5 pt-7 ">
+        <nav className="flex sticky w-full top-0 z-50 items-center justify-between bg-transparent text-white shadow-sm px-5 pt-7  ">
 
             <NavLink
                 to="/">

@@ -14,7 +14,7 @@ function App() {
 
   return (
     <div>
-      <NavBar />
+      {/* <NavBar /> */}
       <Routes>
         <Route index element={<Home />} />
         <Route path="/Destination" element={<Destination />} />
